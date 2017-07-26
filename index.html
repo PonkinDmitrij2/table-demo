@@ -1,40 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="./css/normalize_css_v7_0_0.css">
+	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-	<header>
-		Header
-	</header>
+	<div class="wrapper">
+		<header class="main-header">
+			Header
+		</header>
 
-	<main>
-		<table>
-		  <tr>
-			  <!-- TODO: use th instead of td elements -->
-		    <td>Date</td>
-		    <td>Order type</td>
-		    <td>Address</td>
-		    <td>Comment</td>
-		    <td>Quantity</td>
-		    <td>Product</td>
-		    <td>Status</td>
-		  </tr>
-		  <tr>
-		    <td></td>
-		    <td></td>
-		    <td></td>
-		    <td></td>
-		    <td></td>
-		    <td></td>
-		    <td></td>
-		  </tr>
-		</table>
-	</main>
-
-	<footer>
+		<main class="content">
+			<table class="table-data">
+			  <tr class="table-data__row">
+			    <th class="table-data__cell"><label class="table-data__label"><input class="table-data__input" type=checkbox name="row" value=""></label></th>
+			    <th class="table-data__cell table-data__cell_h">Date</th>
+			    <th class="table-data__cell table-data__cell_h">Order type</th>
+			    <th class="table-data__cell table-data__cell_h">Address</th>
+			    <th class="table-data__cell table-data__cell_h">Comment</th>
+			    <th class="table-data__cell table-data__cell_h">Quantity</th>
+			    <th class="table-data__cell table-data__cell_h">Product</th>
+			    <th class="table-data__cell table-data__cell_h">Status</th>
+			  </tr>
+			  <tr class="table-data__row">
+			    <td class="table-data__cell"><label class="table-data__label"><input class="table-data__input" type=checkbox name="row" value=""></label></td>
+			    <td class="table-data__cell">26. 07. 17</td>
+			    <td class="table-data__cell">Обычный</td>
+			    <td class="table-data__cell">ул. Лениеа, д. 20</td>
+			    <td class="table-data__cell">В любое время</td>
+			    <td class="table-data__cell">3</td>
+			    <td class="table-data__cell">IROBO</td>
+			    <td class="table-data__cell">Активен</td>
+			  </tr>
+			  <tr class="table-data__row">
+			    <td class="table-data__cell"><label class="table-data__label"><input class="table-data__input" type=checkbox name="row" value=""></label></td>
+			    <td class="table-data__cell">26. 07. 17</td>
+			    <td class="table-data__cell">Обычный</td>
+			    <td class="table-data__cell">ул. Лениеа, д. 20</td>
+			    <td class="table-data__cell">В любое время с 8:00 до 22:00, кроме выходных</td>
+			    <td class="table-data__cell">3</td>
+			    <td class="table-data__cell">IROBO</td>
+			    <td class="table-data__cell">Активен</td>
+			  </tr>
+			  <tr class="table-data__row">
+			    <td class="table-data__cell"><label class="table-data__label"><input class="table-data__input" type=checkbox name="row" value=""></label></td>
+			    <td class="table-data__cell">26. 07. 17</td>
+			    <td class="table-data__cell">Обычный</td>
+			    <td class="table-data__cell">ул. Лениеа, д. 20</td>
+			    <td class="table-data__cell">В любое время с 8:00 до 22:00, кроме выходных</td>
+			    <td class="table-data__cell">3</td>
+			    <td class="table-data__cell">IROBO</td>
+			    <td class="table-data__cell">Активен</td>
+			  </tr>
+			  <tr class="table-data__row">
+			    <td class="table-data__cell"><label class="table-data__label"><input class="table-data__input" type=checkbox name="row" value=""></label></td>
+			    <td class="table-data__cell">26. 07. 17</td>
+			    <td class="table-data__cell">Обычный</td>
+			    <td class="table-data__cell">ул. Лениеа, д. 20</td>
+			    <td class="table-data__cell">В любое время с 8:00 до 22:00, кроме выходных</td>
+			    <td class="table-data__cell">3</td>
+			    <td class="table-data__cell">IROBO</td>
+			    <td class="table-data__cell">Активен</td>
+			  </tr>
+			  <tr class="table-data__row">
+			    <td class="table-data__cell"><label class="table-data__label"><input class="table-data__input" type=checkbox name="row" value=""></label></td>
+			    <td class="table-data__cell">26. 07. 17</td>
+			    <td class="table-data__cell">Обычный</td>
+			    <td class="table-data__cell">ул. Лениеа, д. 20</td>
+			    <td class="table-data__cell">В любое время с 8:00 до 22:00, кроме выходных</td>
+			    <td class="table-data__cell">3</td>
+			    <td class="table-data__cell">IROBO</td>
+			    <td class="table-data__cell">Активен</td>
+			  </tr>
+			</table>
+		</main>
+	</div>
+	<footer class="main-footer">
 		Footer
 	</footer>
 </body>
 </html>
+
