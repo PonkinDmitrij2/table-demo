@@ -1,3 +1,4 @@
+
 html,
 body {
 	width: 100%;
@@ -54,6 +55,64 @@ body {
 	padding: 10px 20px;
 }
 
+.pagination {
+	width: 437px;
+  margin: 30px auto;
+  white-space: nowrap;
+}
+
+.pagination__list {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	padding: 0;
+	font-size: 0;
+	list-style: none;
+}
+
+.pagination__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.pagination__item:last-child {
+	margin-right: 0;
+}
+
+.pagination__link, 
+.pagination__control {
+	display: inline-block;
+  vertical-align: middle;
+	height: 38px;
+  min-width: 20px;
+	padding: 0 9px;
+  font-size: 18px;
+  line-height: 38px;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid #ddd;
+	color: #95a5a6;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+ .pagination__control:first-child {
+  padding-right: 11px;
+  padding-left: 7px;
+}
+
+.pagination__control:last-child {
+  padding-left: 11px;
+  padding-right: 7px;
+}
+
+.pagination__control:hover,
+.pagination__link:hover {
+	color: #fff;
+	background-color: #95a5a6;
+	transition: background-color 0.5s;
+}
 .main-footer {
 	position: relative;
 	min-width: 1110px;
