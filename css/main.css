@@ -85,6 +85,30 @@ body {
   margin: 0 auto;
 }
 
+.row-selector {
+	float: left;
+	min-width: 40px;
+}
+
+.per-page {
+	height: 40px;
+	padding: 0 8px;
+ 	border: 1px solid #ddd;
+	color: #95a5a6;
+	border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.per-page:hover {
+	color: #fff;
+	background-color: #95a5a6;
+	transition: background-color 0.5s;
+}
+
 .pagination {
 	width: 437px;
   margin: 30px auto;
