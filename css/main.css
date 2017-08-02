@@ -13,7 +13,7 @@ body {
 
 .wrapper {
 	position: relative;
-	min-width: 1110px;
+	min-width: 1210px;
 	min-height: 100%;
 	overflow: hidden;
 }
@@ -24,8 +24,12 @@ body {
 	height: 100px;
 }
 
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
 .table-data {
-	width: 1000px;
   margin: 0 auto;
   border-collapse: collapse;
 }
@@ -37,15 +41,16 @@ body {
 
 .table-data__cell-inner {
 	display: inline-block;
+	width: 130px;
 	font-size: 0;
-	text-align: left;
+	text-align: center;
 }
 
 .table-data__cell-icon {
 	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: middle;
-	width: 10%;
+	width: 13%;
 	font-size: 16px;
 }
 
@@ -53,9 +58,10 @@ body {
 	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: middle;
-	width: 90%;
-	padding-left: 10px;
+	width: 87%;
+	padding-left: 8px;
 	font-size: 16px;
+	text-align: left;
 }
 
 .table-data__cell_h:hover {
@@ -66,6 +72,64 @@ body {
 
 .table-data__cell_h:hover:first-child {
 	background-color: transparent;
+}
+
+.table-data__cell_field {
+	padding: 5px;
+	background:#f5f5f5;
+}
+
+.table-data__cell_field-inner {
+	position: relative;
+}
+
+.table-data__search {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 4px 5px;
+	padding-right: 20px;
+	border: 1px solid #ccc;
+  background: white;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.table-data__btn {
+	position: absolute;
+	right: 1px;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 0;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.table-data__btn-text {
+	font-size: 0;
+}
+
+.table-data__btn:hover, 
+.table-data__btn:focus {
+	color: rgb(50, 200, 255);
+}
+
+.table-data__select {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 4px 5px;
+	border: 1px solid #ccc;
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.table-data__search:focus, 
+.table-data__select:focus {
+	box-shadow: 0 0 5px rgba(50, 200, 255, 0.5);
+	outline: none;
 }
 
 .table-data__cell:first-child {
@@ -81,7 +145,6 @@ body {
 }
 
 .controls {
-	width: 1000px;
   margin: 0 auto;
 }
 
@@ -169,7 +232,7 @@ body {
 }
 .main-footer {
 	position: relative;
-	min-width: 1110px;
+	min-width: 1210px;
 	height: 100px;
 	margin-top: -100px;
 }
